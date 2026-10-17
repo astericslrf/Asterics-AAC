@@ -5,8 +5,8 @@ import { constants } from '../../util/constants';
 
 let boardService = {};
 
-let BASE_URL = "https://asterics.github.io/Asterics-AAC-Data/";
-let GITHUB_BASE_URL = "https://github.com/asterics/Asterics-AAC-Data/tree/main/";
+let BASE_URL = "https://astericslrf.github.io/Asterics-AAC-Data-Metadata";
+let GITHUB_BASE_URL = "https://github.com/astericslrf/Asterics-AAC-Data-Metadata/tree/gh-pages/";
 let METADATA_URL = constants.IS_ENVIRONMENT_PROD ? BASE_URL + "live_metadata.json" : BASE_URL + "live_metadata_beta.json";
 let ownResults = [];
 let searchTermsMap = new Map();
