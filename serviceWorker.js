@@ -211,7 +211,7 @@ function shouldCacheImage(url, request) {
 }
 
 function shouldCacheStaleWhileRevalidate(url, request) {
-    return url.href.startsWith('https://asterics.github.io/Asterics-AAC-Data');
+    return url.href.startsWith('https://astericslrf.github.io/Asterics-AAC-Data-Metadata');
 }
 
 function shouldCacheNormal(url, request) {
