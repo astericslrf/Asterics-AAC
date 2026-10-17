@@ -1,5 +1,5 @@
 importScripts(
-    'app/lib/workbox/workbox-v7.4.0/workbox-core.prod.js',
+    'app/lib/workbox/astericsgrid/workbox-v7.4.0/workbox-core.prod.js',
     'app/lib/workbox/workbox-v7.4.0/workbox-strategies.prod.js',
     'app/lib/workbox/workbox-v7.4.0/workbox-routing.prod.js',
     'app/lib/workbox/workbox-v7.4.0/workbox-precaching.prod.js',
