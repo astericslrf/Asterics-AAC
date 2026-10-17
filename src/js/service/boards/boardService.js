@@ -1,4 +1,4 @@
-import { GridPreview } from '../../model/GridPreview';
+import { GridPreview } from '../../astericsgrid/model/GridPreview';
 import { i18nService } from '../i18nService';
 import { util } from '../../util/util';
 import { constants } from '../../util/constants';
