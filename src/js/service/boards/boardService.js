@@ -7,7 +7,7 @@ let boardService = {};
 
 let BASE_URL = "https://astericslrf.github.io/Asterics-AAC-Data-Metadata";
 let GITHUB_BASE_URL = "https://github.com/astericslrf/Asterics-AAC-Data-Metadata/tree/gh-pages/";
-let METADATA_URL = constants.IS_ENVIRONMENT_PROD ? BASE_URL + "live_metadata.json" : BASE_URL + "live_metadata_beta.json";
+let METADATA_URL = constants.IS_ENVIRONMENT_PROD ? BASE_URL + "https://astericslrf.github.io/Asterics-AAC-Data-Metadata/live_metadata.json" : BASE_URL + "https://astericslrf.github.io/Asterics-AAC-Data-Metadata/live_metadata_beta.json";
 let ownResults = [];
 let searchTermsMap = new Map();
 let translationMap = {};
