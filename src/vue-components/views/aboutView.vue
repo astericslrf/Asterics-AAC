@@ -8,7 +8,7 @@
                     <h3 class="mt-2">{{ $t('generalInformation') }}</h3>
                     <div>
                         {{ $t('astericsGridIsFreeAndOpenSource') }}<br/>
-                        <a target="_blank" href="https://github.com/asterics/Asterics-AAC">{{ $t('astericsGridOnGithub') }}</a><br/><br/>
+                        <a target="_blank" href="https://github.com/astericslrf/Asterics-AAC">{{ $t('astericsGridOnGithub') }}</a><br/><br/>
                     </div>
                     <div>
                         <span>{{ $t('astericsGridWasFundedWithinProjects') }}</span>:
