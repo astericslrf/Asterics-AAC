@@ -5,8 +5,8 @@ constants.MODEL_VERSION = '{"major": 7, "minor": 0, "patch": 0}';
 constants.MODEL_VERSION_LOCAL = '{"major": 1, "minor": 0, "patch": 0}';
 constants.MODEL_VERSION_CHANGED_TO_USERNAME_AS_SALT = 7;
 
-constants.LOCAL_NOLOGIN_USERNAME = 'default-user';
-constants.LOCAL_DEMO_USERNAME = 'local-demo-user';
+constants.LOCAL_NOLOGIN_USERNAME = 'logoremakefour';
+constants.LOCAL_DEMO_USERNAME = 'logoremakefour98';
 constants.LOCAL_DEFAULT_USER_PREFIX = 'default-';
 constants.USERNAME_REGEX = /^[a-z0-9][a-z0-9_-]{2,15}$/;
 constants.EMOJI_REGEX = /((\p{Regional_Indicator}{2})|((\p{Emoji}(?:\uFE0F|\u200D\p{Emoji})*)\u20E3?))/gu;
@@ -104,7 +104,7 @@ constants.WEBRADIO_LAST_VOLUME_KEY = 'WEBRADIO_LAST_VOLUME_KEY';
 constants.PODCAST_LAST_VOLUME_KEY = 'PODCAST_LAST_VOLUME_KEY';
 
 constants.GRIDSET_FOLDER = 'app/gridsets/';
-constants.BOARDS_REPO_BASE_URL = "https://asterics.github.io/Asterics-AAC-Data/";
+constants.BOARDS_REPO_BASE_URL = "https://astericslrf.github.io/Asterics-AAC-Data-Metadata";
 
 constants.BOARD_TYPE_SELFCONTAINED = "BOARD_TYPE_SELFCONTAINED";
 constants.BOARD_TYPE_SINGLE = "BOARD_TYPE_SINGLE";
@@ -377,7 +377,7 @@ constants.DEFAULT_COLOR_SCHEMES = [
             '#ffffff', // noun
             '#e3f5fa', // article
             '#eaeffd', // adjective
-            '#FCE8E8', // verb
+            '#FF0000', // verb
             '#dff4df', // preposition
             '#fbf3e4', // adverb
             '#fbf2ff', // pronoun
@@ -425,7 +425,7 @@ constants.DEFAULT_COLOR_SCHEMES = [
         name: constants.COLOR_SCHEME_MONTESSORI_DARK,
         categories: constants.CS_MONTESSORI_CATEGORIES,
         colors: [
-            '#464646',
+            '#FF0000',
             '#18728c',
             '#0d3298',
             '#931212',
@@ -446,8 +446,8 @@ constants.OPTION_TYPES = {
     SELECT_COLORS: 'SELECT_COLORS'
 };
 
-constants.ARASAAC_AUTHOR = 'ARASAAC - CC (BY-NC-SA)';
-constants.ARASAAC_LICENSE_URL = 'https://arasaac.org/terms-of-use';
+constants.ARASAAC_AUTHOR = 'Sergio Palao / ARASAAC';
+constants.ARASAAC_LICENSE_URL = 'https://catedu.es/arasaac';
 
 constants.WORDFORM_TAG_BASE = 'BASE';
 constants.WORDFORM_TAGS = [
